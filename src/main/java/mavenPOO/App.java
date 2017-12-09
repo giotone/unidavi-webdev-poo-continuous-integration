@@ -1,8 +1,10 @@
 
 package mavenPOO;
 
+import java.util.logging.Logger;
+
 public class App {
     public static void main(String[] args){
-        System.out.println("Hello Maven");
+        Logger.getGlobal().info("Hello");
     }
 }

@@ -14,7 +14,24 @@ import java.util.List;
 public class BookStore {
 
     public double calculateBasketCost(List<Integer> books) {
-        return 1;
+        
+        int idLivro = 0;
+        double returno = 8;
+        
+        for(int i=0; i<books.size();i++){
+            
+            if (idLivro == 0){
+                idLivro = books.get(i);
+            }else{
+                if (books.get(i) == idLivro){
+                    returno = 16;
+                }else{
+                    returno = 15.20;
+                }
+            }
+                        
+        }
+        return returno;
     }
     
 }
