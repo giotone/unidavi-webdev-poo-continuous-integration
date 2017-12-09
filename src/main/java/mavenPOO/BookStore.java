@@ -5,10 +5,16 @@
  */
 package mavenPOO;
 
+import java.util.List;
+
 /**
  *
  * @author gt2a
  */
 public class BookStore {
+
+    public double calculateBasketCost(List<Integer> books) {
+        return 1;
+    }
     
 }
